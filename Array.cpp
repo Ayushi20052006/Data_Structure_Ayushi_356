@@ -98,3 +98,42 @@
 //     }
 //     return 0;
 // }
+
+//MERGING TWO SORTED ARRAY
+
+
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int arr1[6]={2,3,4,5,10,14};
+//     int arr2[5]={5,7,8,9,12};
+//     int buffer[11];
+//     int i=0,j=0,k=0;
+//     while(i<6 && j<5){
+//         if(arr1[i]<=arr2[j]){
+//             buffer[k]=arr1[i];
+//             i++;
+//             k++;
+//         }
+//         else{
+//             buffer[k]=arr2[j];
+//             j++;
+//             k++;
+//         }
+//     }
+//     while (i<6){
+//         buffer[k]=arr1[i];
+//         k++;
+//         i++;
+//     }
+//     while(j<5){
+//         buffer[k]=arr2[j];
+//         j++;
+//         k++;
+//     }
+//     for(int x=0;x<11;x++){
+//         cout<<buffer[x]<<"\n";
+//     }
+
+//     return 0;
+// }
