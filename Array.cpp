@@ -135,5 +135,90 @@
 //         cout<<buffer[x]<<"\n";
 //     }
 
+
+//     return 0;
+// }
+
+
+
+//UNION OF TWO SORTED SET
+
+// #include <bits/stdc++.h>
+// using namespace std;
+
+// int main() {
+//    int arr1[3]={1,3,9};
+//    int arr2[5]={2,4,6,8,10};
+//    int arr3[8];
+//    int i=0,j=0,k=0;
+//    while(i<3&&j<5){
+//        if(arr1[i]==arr2[j]){
+//            arr3[k]=arr1[i];
+//            i++;
+//            j++;
+//            k++;
+//        }
+//        else if(arr1[i]>arr2[j]){
+//            arr3[k]=arr2[j];
+//            j++;
+//            k++;
+//        }
+//        else {
+//            arr3[k]=arr1[i];
+//            i++;
+//            k++;
+//        }
+//    }
+//    while(i<3){
+//        arr3[k]=arr1[i];
+//        i++;
+//        k++;
+//    }
+//     while(j<5){
+//        arr3[k]=arr2[j];
+//        j++;
+//        k++;
+//    }
+//    for(int x=0;x<8;x++){
+//        cout<<arr3[x]<<" ";
+//    }
+   
+//     return 0;
+// }
+
+
+//INTERSECTION OF TWO SORTED SETS
+
+
+// #include <bits/stdc++.h>
+// using namespace std;
+
+// int main() {
+//    int arr1[4]={1,3,8,10};
+//    int arr2[5]={2,4,6,8,10};
+//    int arr3[4]; //minimum size among m and n
+//    int i=0,j=0,k=0;
+//   while(i<4&&j<5){
+//       if(arr1[i]==arr2[j]){
+//           arr3[k]=arr1[i];
+//           i++;
+//           j++;
+//           k++;
+//       }
+//        else if(arr1[i]<arr2[j]){
+//            i++;
+//        }
+//       else {
+//           arr2[j]<arr1[i];
+          
+//           j++;
+           
+//       }
+//   }
+
+//    for(int x=0;x<k;x++){
+//        cout<<arr3[x]<<" ";
+//    }
+   
 //     return 0;
 // }
