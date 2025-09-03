@@ -75,22 +75,17 @@ int main(){
    cout<<endl;  
 
 //USE OF ITERATOR
+//PRINTING THE VECTOR ELEMENTS
    vector<int>::iterator itr;
     for(auto itr=v.begin(); itr!=v.end(); itr++)
     {
         cout<<*(itr)<<" ";
     }
     cout<<endl;
-
+//PRINTING THE VECTOR IN REVERSE ORDER
     vector<int>::reverse_iterator rit;
     for(auto rit=v.rbegin(); rit!=v.rend(); rit++)
         cout<<*(rit)<<" ";
     cout<<endl;
-
-
-
-
-
-
 
 }
