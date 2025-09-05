@@ -3,7 +3,7 @@ using namespace std;
 int main(){
     vector<int>Vec;
 
-//     vector<int>V={2,3,4,5,6};
+    vector<int>V={2,3,4,5,6};
 //    for(auto value:V){
 //     cout<<value<<" ";
 //    } 
@@ -82,7 +82,7 @@ int main(){
    cout<<endl;  
 
 //USE OF ITERATOR
-<<<<<<< HEAD
+
 //    vector<int>::iterator itr;
 //     for(auto itr=Vec.begin(); itr!=Vec.end(); itr++)
 //     {
@@ -113,21 +113,4 @@ cout<<binary_search(Vec.begin(),Vec.end(),6)<<endl;   //returns 0 or 1
 //TO GET INDEX OF PARTICULAR ELEMENT 
 cout<<find(Vec.begin(),Vec.end(),8)-Vec.begin()<<endl;   
 
-
-} 
-=======
-//PRINTING THE VECTOR ELEMENTS
-   vector<int>::iterator itr;
-    for(auto itr=v.begin(); itr!=v.end(); itr++)
-    {
-        cout<<*(itr)<<" ";
-    }
-    cout<<endl;
-//PRINTING THE VECTOR IN REVERSE ORDER
-    vector<int>::reverse_iterator rit;
-    for(auto rit=v.rbegin(); rit!=v.rend(); rit++)
-        cout<<*(rit)<<" ";
-    cout<<endl;
-
 }
->>>>>>> 68ebe55675171ef7f3de0273af4ce153285cfe51
