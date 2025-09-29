@@ -50,9 +50,9 @@ int main() {
             }
             pop(); 
         }
-        else if(ch=="^"){
-            push(ch);
-        }
+        // else if(ch=="^"){
+        // push(ch);
+        // }
         else {
             while (top != -1 && priority(st[top]) >= priority(ch)) {
                 cout << pop();
