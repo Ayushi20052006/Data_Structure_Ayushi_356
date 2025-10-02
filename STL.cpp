@@ -117,22 +117,22 @@
 
 
 //MERGING OF TWO SORTED VECTOR USING BUFFER VECTOR 
-#include <bits/stdc++.h>
-using namespace std;
-int main() {
-    int n, m;
-    cout<<"Enter the size of 1st vector";
-    cin >> n;
-    vector<int> a(n);
-    for (int i = 0; i < n; i++) cin >> a[i];
+// #include <bits/stdc++.h>
+// using namespace std;
+// int main() {
+//     int n, m;
+//     cout<<"Enter the size of 1st vector";
+//     cin >> n;
+//     vector<int> a(n);
+//     for (int i = 0; i < n; i++) cin >> a[i];
 
-    cout<<"Enter the size of 2nd vector";
-    cin >> m;
-    vector<int> b(m);
-    for (int i = 0; i < m; i++) cin >> b[i];
+//     cout<<"Enter the size of 2nd vector";
+//     cin >> m;
+//     vector<int> b(m);
+//     for (int i = 0; i < m; i++) cin >> b[i];
 
-    vector<int> merged;
-    int i = 0, j = 0;
+//     vector<int> merged;
+//     int i = 0, j = 0;
 
     // while (i < n && j < m) {
     //     if (a[i] <= b[j]) {
@@ -154,15 +154,15 @@ int main() {
     //cout<<"Sorted array is: ";
     //  for (auto x : merged) cout << x << " ";
     // cout << endl;
-    vector<int>ans(m+n);
-    merge(a.begin(),a.end(),b.begin(),b.end(),ans.begin());
-    cout<<"Sorted array using predefined function is: "
-    for (auto x : ans) cout << x << " ";
-    cout << endl;
+    // vector<int>ans(m+n);
+    // merge(a.begin(),a.end(),b.begin(),b.end(),ans.begin());
+    // cout<<"Sorted array using predefined function is: "
+    // for (auto x : ans) cout << x << " ";
+    // cout << endl;
    
 
-    return 0;
-}
+    // return 0;
+// }
 
 
 
